@@ -1,1 +1,1 @@
-# Web2
+Not a serious project. Just my sandbox
