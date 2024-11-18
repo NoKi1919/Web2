@@ -1,4 +1,50 @@
-h1, h2 {
-  color : blue;
-  text-align : center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif
+}
+
+.language-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* Style du bouton principal */
+.language-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Menu déroulant */
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Liens de langue */
+.language-dropdown a {
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Dernier élément du menu, sans bordure */
+.language-dropdown a:last-child {
+  border-bottom: none;
+}
+/* Effet survol */
+.language-dropdown a:hover {
+  background-color: #f1f1f1;
 }
