@@ -7,23 +7,94 @@
 	<title>Либеральный союз</title>
 </head>
 <body>
-	<!-- Conteneur du menu -->
-	<div class="language-menu">
-		<button class="language-button" onclick="toggleDropdown()">Язык</button>
-		<div class="language-dropdown" id="dropdown">
-			<a href="ul-fr.html">Français</a>
-			<a href="ul-sy.html">人亍言</a>
-			<a href="ul-zh.html">漢語</a>
-			<a href="ul-jp.html">日本語</a>
-			<a href="ul-mc.html">夕人魂</a>
-			<a href="ul-ay.html">Aylúng</a>
-			<a href="ul-en.html">English</a>
-		</div>
-	</div>
+    <!-- Заголовок -->
+    <header>
+        <h1>Либеральный Союз</h1>
+        <p>Свободное и объединённое будущее</p>
+    </header>
 
-	<!-- Lien vers le fichier JavaScript externe -->
-	<script src="ul.js"></script>
-	
-	<h1>Либеральный Союз</h1>
+    <!-- Навигация -->
+    <nav>
+        <!-- Основные ссылки -->
+        <div class="menu-links">
+            <a href="#home">Главная</a>
+            <a href="#program">Программа</a>
+            <a href="#team">Команда</a>
+            <a href="#news">Новости</a>
+            <a href="#contact">Контакты</a>
+        </div>
+
+        <!-- Меню языков (справа) -->
+        <div class="lang-menu">
+            <a href="ul-fr.html">Français</a>
+            <a href="ul-sy.html">人不言</a>
+            <a href="ul-zh.html">漢語</a>
+            <a href="ul-jp.html">日本語</a>
+            <a href="ul-mc.html">夕人魂</a>
+            <a href="ul-ay.html">Aylúng</a>
+            <a href="ul-en.html">English</a>
+        </div>
+    </nav>
+
+    <!-- Раздел Главная -->
+    <section id="home" class="banner">
+        <h2>Добро пожаловать на официальный сайт Либерального Союза!</h2>
+        <p>Присоединяйтесь к нам в создании лучшего общества.</p>
+    </section>
+
+    <!-- Дополнительное содержание -->
+    <section>
+        <p>Добро пожаловать на официальный сайт Либерального Союза!</p>
+        <p>Мы — партия с глубокими корнями в истории Бореалии. Как наследники Движения за Либеральную Демократию, которое боролось за свободу и демократию в начале 1950-х годов, мы всегда защищали ценности, которые для нас важны.</p>
+        <h3>Наши приоритеты для Бореалии:</h3>
+        <ul>
+            <li><strong>Сильная и единая Бореалия:</strong> Федерация, где все культуры и языки могут процветать.</li>
+            <li><strong>Динамичная экономика:</strong> Больше возможностей для успеха благодаря свободному рынку.</li>
+            <li><strong>Ответственность прежде всего:</strong> Продвижение трудолюбия и независимости.</li>
+            <li><strong>Упрощение жизни граждан:</strong> Меньше бюрократии, больше свободы.</li>
+        </ul>
+        <h3>На международной арене:</h3>
+        <p>Мы защищаем Бореалию, которая смотрит на Запад и его демократических союзников, оставаясь сильной перед международными вызовами.</p>
+    </section>
+
+    <!-- Раздел Программа -->
+    <section id="program">
+        <h2>Наша программа</h2>
+        <p>Ознакомьтесь с нашими конкретными предложениями для более свободной и процветающей Бореалии.</p>
+    </section>
+
+    <!-- Раздел Команда -->
+    <section id="team">
+        <h2>Наша команда</h2>
+        <p>Познакомьтесь с людьми, которые каждый день трудятся для защиты ваших ценностей.</p>
+    </section>
+
+    <!-- Раздел Новости -->
+    <section id="news">
+        <h2>Новости</h2>
+        <p>Следите за последними новостями и событиями.</p>
+    </section>
+
+    <!-- Раздел Контакты -->
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form>
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Ваше имя" required>
+            
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" placeholder="Ваш email" required>
+            
+            <label for="message">Сообщение</label>
+            <textarea id="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 Либеральный Союз. Все права защищены.</p>
+    </footer>
 </body>
 </html>
