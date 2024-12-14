@@ -7,23 +7,95 @@
 	<title>放盟</title>
 </head>
 <body>
-	<!-- Conteneur du menu -->
-	<div class="language-menu">
-		<button class="language-button" onclick="toggleDropdown()">魂</button>
-		<div class="language-dropdown" id="dropdown">
-			<a href="ul-fr.html">Français</a>
-			<a href="ul-sy.html">人亍言</a>
-			<a href="ul-zh.html">漢語</a>
-			<a href="ul-jp.html">日本語</a>
-			<a href="ul-ay.html">Aylúng</a>
-			<a href="ul-ru.html">Русский</a>
-      <a href="ul-en.html">English</a>
-		</div>
-	</div>
+    <!-- En-tête -->
+    <header>
+        <h1>放盟</h1>
+        <p>Un avenir libre et uni</p>
+    </header>
 
-	<!-- Lien vers le fichier JavaScript externe -->
-	<script src="ul.js"></script>
-	
-	<h1>放盟</h1>
+    <!-- Navigation -->
+    <nav>
+        <!-- Liens principaux -->
+        <div class="menu-links">
+            <a href="#accueil">Accueil</a>
+            <a href="#programme">Programme</a>
+            <a href="#equipe">Équipe</a>
+            <a href="#actualites">Actualités</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Menu langues aligné à droite -->
+        <div class="lang-menu">
+            <a href="ul-fr.html">Français</a>
+            <a href="ul-sy.html">人亍言</a>
+            <a href="ul-zh.html">漢語</a>
+            <a href="ul-jp.html">日本語</a>
+            <a href="ul-ay.html">Aylúng</a>
+            <a href="ul-ru.html">Русский</a>
+            <a href="ul-en.html">English</a>
+        </div>
+    </nav>
+
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="banner">
+        <h2>Bienvenue sur la page officielle de l’Union Libérale !</h2>
+        <p>Rejoignez-nous dans la construction d'une société meilleure.</p>
+    </section>
+
+    <!-- Contenu supplémentaire -->
+    <section>
+        <p>Bienvenue sur la page officielle de l’Union Libérale !</p>
+        <p>Nous sommes un parti profondément enraciné dans l’histoire de la Boréalie. Héritiers du Mouvement pour la Démocratie Libérale, qui s’est battu pour la liberté et la démocratie au début des années 1950, nous avons toujours été là pour défendre les valeurs qui nous tiennent à cœur.</p>
+        <h3>Nos priorités pour la Boréalie :</h3>
+        <ul>
+            <li><strong>Une Boréalie forte et unie :</strong> Une fédération où toutes les cultures et langues peuvent s’épanouir.</li>
+            <li><strong>Une économie dynamique :</strong> Plus d’opportunités pour réussir grâce au marché libre.</li>
+            <li><strong>La responsabilité d’abord :</strong> Promouvoir le travail acharné et l’autonomie.</li>
+            <li><strong>Simplifier la vie des citoyens :</strong> Moins de bureaucratie, plus de liberté.</li>
+        </ul>
+        <h3>Sur la scène internationale :</h3>
+        <p>Nous défendons une Boréalie qui regarde vers l’Occident et ses alliés démocratiques, tout en restant forte face aux défis internationaux.</p>
+    </section>
+
+    <!-- Section Programme -->
+    <section id="programme">
+        <h2>Notre Programme</h2>
+        <p>Découvrez nos propositions concrètes pour une Boréalie plus libre et plus prospère.</p>
+    </section>
+
+    <!-- Section Équipe -->
+    <section id="equipe">
+        <h2>Notre Équipe</h2>
+        <p>Rencontrez les personnes qui œuvrent au quotidien pour vos valeurs.</p>
+    </section>
+
+    <!-- Section Actualités -->
+    <section id="actualites">
+        <h2>Actualités</h2>
+        <p>Restez informés des dernières nouvelles et événements.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" placeholder="Votre nom" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Votre email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 放盟. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
