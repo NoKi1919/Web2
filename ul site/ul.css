@@ -6,10 +6,9 @@ body {
     line-height: 1.6;
 }
 header {
-    background-color: #003366;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espace entre le logo et le texte */
 }
 header h1, header p {
     margin: 0;
