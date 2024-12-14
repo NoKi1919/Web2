@@ -1,3 +1,5 @@
+//Obsolete
+
 // Fonction pour afficher/cacher le menu déroulant
 function toggleDropdown() {
     var dropdown = document.getElementById("dropdown");
