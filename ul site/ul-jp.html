@@ -7,23 +7,94 @@
 	<title>自由連合</title>
 </head>
 <body>
-	<!-- Conteneur du menu -->
-	<div class="language-menu">
-		<button class="language-button" onclick="toggleDropdown()">言語</button>
-		<div class="language-dropdown" id="dropdown">
-			<a href="ul-fr.html">Français</a>
-			<a href="ul-sy.html">人亍言</a>
-			<a href="ul-zh.html">漢語</a>
-			<a href="ul-mc.html">夕人魂</a>
-      <a href="ul-ay.html">Aylúng</a>
-			<a href="ul-ru.html">Русский</a>
-			<a href="ul-en.html">English</a>
-		</div>
-	</div>
+    <!-- ヘッダー -->
+    <header>
+        <h1>自由連合</h1>
+        <p>自由で団結した未来</p>
+    </header>
 
-	<!-- Lien vers le fichier JavaScript externe -->
-	<script src="ul.js"></script>
-	
-	<h1>自由連合</h1>
+    <!-- ナビゲーション -->
+    <nav>
+        <!-- メインリンク -->
+        <div class="menu-links">
+            <a href="#home">ホーム</a>
+            <a href="#program">プログラム</a>
+            <a href="#team">チーム</a>
+            <a href="#news">ニュース</a>
+            <a href="#contact">連絡先</a>
+        </div>
+
+        <!-- 言語メニュー（右揃え） -->
+        <div class="lang-menu">
+            <a href="ul-fr.html">Français</a>
+            <a href="ul-sy.html">人不言</a>
+            <a href="ul-zh.html">漢語</a>
+            <a href="ul-mc.html">夕人魂</a>
+            <a href="ul-ay.html">Aylúng</a>
+            <a href="ul-ru.html">Русский</a>
+            <a href="ul-en.html">English</a>
+        </div>
+    </nav>
+
+    <!-- ホームセクション -->
+    <section id="home" class="banner">
+        <h2>自由連合の公式ページへようこそ！</h2>
+        <p>より良い社会の構築に参加しましょう。</p>
+    </section>
+
+    <!-- 追加コンテンツ -->
+    <section>
+        <p>自由連合の公式ページへようこそ！</p>
+        <p>私たちはボレアリアの歴史に深く根付いた政党です。1950年代初頭に自由と民主主義のために戦った自由民主主義運動の継承者として、私たちは常に大切な価値を守ってきました。</p>
+        <h3>ボレアリアのための優先事項：</h3>
+        <ul>
+            <li><strong>強く団結したボレアリア：</strong> すべての文化と言語が繁栄できる連邦。</li>
+            <li><strong>活力ある経済：</strong> 自由市場を通じて成功する機会を提供。</li>
+            <li><strong>責任を第一に：</strong> 努力と自立を促進。</li>
+            <li><strong>市民の生活を簡素化：</strong> 官僚主義を減らし、自由を拡大。</li>
+        </ul>
+        <h3>国際舞台において：</h3>
+        <p>私たちは西側諸国や民主主義の同盟国と共に歩むボレアリアを目指し、国際的な挑戦に立ち向かう強い姿勢を守ります。</p>
+    </section>
+
+    <!-- プログラムセクション -->
+    <section id="program">
+        <h2>私たちのプログラム</h2>
+        <p>より自由で繁栄したボレアリアのための具体的な提案をご覧ください。</p>
+    </section>
+
+    <!-- チームセクション -->
+    <section id="team">
+        <h2>私たちのチーム</h2>
+        <p>皆さんの価値観を守るために日々活動しているメンバーをご紹介します。</p>
+    </section>
+
+    <!-- ニュースセクション -->
+    <section id="news">
+        <h2>ニュース</h2>
+        <p>最新のニュースやイベント情報をお届けします。</p>
+    </section>
+
+    <!-- 連絡先セクション -->
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">お名前</label>
+            <input type="text" id="name" placeholder="お名前" required>
+            
+            <label for="email">メール</label>
+            <input type="email" id="email" placeholder="メールアドレス" required>
+            
+            <label for="message">メッセージ</label>
+            <textarea id="message" rows="5" placeholder="メッセージ" required></textarea>
+            
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2024 自由連合. All rights reserved.</p>
+    </footer>
 </body>
 </html>
